@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A77A00A61F7555AF0078A09C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A77A00A51F7555AF0078A09C /* main.cpp */; };
+		A77A00AE1F7556060078A09C /* PCSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A77A00AD1F7556060078A09C /* PCSC.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		A77A00A21F7555AF0078A09C /* nfc_test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = nfc_test; sourceTree = BUILT_PRODUCTS_DIR; };
 		A77A00A51F7555AF0078A09C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A77A00AD1F7556060078A09C /* PCSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PCSC.framework; path = System/Library/Frameworks/PCSC.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A77A00AE1F7556060078A09C /* PCSC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +46,7 @@
 			children = (
 				A77A00A41F7555AF0078A09C /* nfc_test */,
 				A77A00A31F7555AF0078A09C /* Products */,
+				A77A00AC1F7556060078A09C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +64,14 @@
 				A77A00A51F7555AF0078A09C /* main.cpp */,
 			);
 			path = nfc_test;
+			sourceTree = "<group>";
+		};
+		A77A00AC1F7556060078A09C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A77A00AD1F7556060078A09C /* PCSC.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,6 +260,7 @@
 				A77A00AB1F7555AF0078A09C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
